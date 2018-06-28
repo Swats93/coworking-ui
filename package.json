@@ -10,7 +10,7 @@
     "build:production": "webpack --define process.env.NODE_ENV=production --config webpack.prod.js --progress",
     "start": "webpack-dashboard -t frontend -- webpack-dev-server ./src/routes.js --config webpack.dev.js --progress --port 5000 --inline --hot  --host 0.0.0.0"
   },
-  "author": "Deepak gupta (ideepak.jsd@gmail.com)",
+  "author": "Swati Aggarwal (garg.swati93@gmail.com)",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",
